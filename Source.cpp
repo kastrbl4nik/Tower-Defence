@@ -3,6 +3,8 @@
 #include "Game.h"
 #include "Menu.h"
 
+#pragma comment(lib, "Winmm.lib")
+
 int main() {
 	std::array<Game*, 1> lvl;
 
